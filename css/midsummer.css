@@ -8,10 +8,10 @@
   --fondo1:#121212c9;
   --fondo2: #121212;
   --fondo3: #121212;  
-  --color1:#969c77;
-  --color2:#969c77;  
+  --color1:#496b64;
+  --color2:#496b64;  
   --textobase:#ededed;
-  --links1:#969c77;  
+  --links1:#728f89;  
   --borde1: 1px solid #1c1c1c;
   --borde1-c: #3d3d3d;
   --borde2: 1px solid #1c1c1c;
@@ -1730,7 +1730,8 @@ a.grupoforo span.titulo-grupo:after {
     padding: 20px;
 }
 
-.tablontra-imagen {padding: 2px;
+.tablontra-imagen {
+    padding: 1px;
     background: var(--color1);margin-right: 25px;}
 
 .tablontra-imagen img {
