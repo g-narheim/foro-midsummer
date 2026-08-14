@@ -3,12 +3,12 @@
 
 :root {
   --imagen-fondo:url(https://g-narheim.github.io/foro-midsummer/images/mid-fondo.png);
-  --imagen-logo: url(https://g-narheim.github.io/foro-midsummer/images/mid-header.png);  
+  --imagen-logo: url(https://g-narheim.github.io/foro-midsummer/images/mid-header.png);   
   --fuente1:Raleway;  
   --fondo1:#121212c9;
   --fondo2: #121212;
   --fondo3: #121212;  
-  --color1:#496b64;
+  --color1:#4e736c;
   --color2:#496b64;  
   --textobase:#ededed;
   --links1:#728f89;  
@@ -1730,8 +1730,7 @@ a.grupoforo span.titulo-grupo:after {
     padding: 20px;
 }
 
-.tablontra-imagen {
-    padding: 1px;
+.tablontra-imagen {padding: 1px;
     background: var(--color1);margin-right: 25px;}
 
 .tablontra-imagen img {
@@ -3088,16 +3087,22 @@ border:var(--borde1);
     opacity: .75;
 }
 
-/* Me gusta */
+/* =========================
+   ME GUSTA - FUERA DEL POST
+   ========================= */
 
 .fa_like_div {
     display: flex !important;
     align-items: center !important;
     gap: 8px;
-    clear: both;
-    padding-top: 100px;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px !important;
+    padding: 1px !important;
     line-height: 22px;
+    clear: both;
 }
+
 
 /* Botón */
 
@@ -3105,43 +3110,57 @@ button.rep-button.fa_like,
 button.rep-button.fa_liked {
     appearance: none;
     -webkit-appearance: none;
+
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center;
+
     background: transparent !important;
     border: none !important;
     box-shadow: none !important;
+
     padding: 0 !important;
     margin: 0 !important;
+
     cursor: pointer;
     outline: none;
+
     font-size: 0 !important;
 }
 
-/* Ocultar el SVG original */
+
+/* Ocultar SVG original */
 
 button.rep-button.fa_like svg,
 button.rep-button.fa_liked svg {
     display: none !important;
 }
 
+
 /* Corazón */
 
 button.rep-button.fa_like::before,
 button.rep-button.fa_liked::before {
     content: "❤";
+
     display: inline-block;
+
     width: 22px;
     height: 22px;
+
     font-size: 20px;
     line-height: 22px;
+
     text-align: center;
+
     color: #333333;
+
     transition:
         transform .3s ease,
         color .3s ease,
         text-shadow .3s ease;
 }
+
 
 /* Hover */
 
@@ -3150,21 +3169,26 @@ button.rep-button.fa_liked:hover::before {
     transform: scale(1.15);
 }
 
+
 /* Me gusta activado */
 
 button.rep-button.fa_liked::before {
     color: #af7b88;
 }
 
-/* Texto de quién dio Me gusta */
+
+/* Lista de usuarios */
 
 .fa_like_list {
     display: inline-block !important;
+
     margin: 0 !important;
     padding: 0 !important;
+
     line-height: 22px !important;
     vertical-align: middle !important;
 }
+
 
 /* Nombre de cada usuario */
 
@@ -3173,8 +3197,7 @@ button.rep-button.fa_liked::before {
     transition: color .3s ease;
 }
 
-
-/********** PRUEBA RÁPIDA *************/
+/******* PRUEBA RÁPIDA *************/
 
 body.tema-japon {
     --imagen-fondo: url(https://2img.net/i.imgur.com/4zQt4Ay.png);
@@ -3251,6 +3274,80 @@ body.tema-castillo {
     color: var(--color2);
 
     transform: scale(1.12);
+}
+
+/**************** Tablilla Loca *****************/
+
+.tabla {
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.ta-pic {
+  position: relative;
+  width: 650px;
+  height: 250px;
+  margin-left: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.ta-text {
+    padding: 40px 40px 0;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 16px;
+    color: var(--textobase);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+
+.ta-title {
+    font-family: "Roboto Condensed", serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: var(--textobase);
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+
+.ta-subt {
+    font-family: "Roboto Condensed", serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--textobase);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+
+.tabla-2 .ta-title,
+.tabla-2 .ta-subt,
+.tabla-2 .ta-text {
+    color: #272727;
+}
+
+
+.tabla-3 .ta-pic {
+    outline: 1px solid #cfcfcf;
+    outline-offset: -20px;
+
+}
+
+.tabla-4 .ta-pic {
+    outline: 1px solid #272727;
+    outline-offset: -20px;
+}
+
+.tabla-4 .ta-title,
+.tabla-4 .ta-subt,
+.tabla-4 .ta-text {
+    color: #272727;
 }
 
 
