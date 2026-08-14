@@ -2465,14 +2465,23 @@ background: var(--fondo3);
 }
 
 .titulo-foro a {
-background: var(--color1);
-    font-size: 65px;
+    background: var(--color1);
+    font-size: 49px;
     line-height: 120%;
     -webkit-background-clip: text;
     color: transparent;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+.titulo-foro a::after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    background: var(--color1);
+    margin-top: 12px;
 }
 
 .titulo-foro a b {
