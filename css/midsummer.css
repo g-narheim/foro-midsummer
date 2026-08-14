@@ -2,8 +2,8 @@
 /*****************        2023-2026       ****************/
 
 :root {
-  --imagen-fondo:url(https://2img.net/i.imgur.com/iTLrkog.png);
-  --imagen-logo: url(https://2img.net/i.imgur.com/LthbFsH.png);  
+  --imagen-fondo:url(https://raw.githubusercontent.com/g-narheim/foro-midsummer/main/images/mid-fondo.png);
+  --imagen-logo: url(https://raw.githubusercontent.com/g-narheim/foro-midsummer/main/images/mid-header.png);  
   --fuente1:Raleway;  
   --fondo1:#121212c9;
   --fondo2: #121212;
