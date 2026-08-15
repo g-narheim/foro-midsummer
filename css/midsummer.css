@@ -548,7 +548,7 @@ order: -1;
 /*** PAGINAS DE GRUPOS ***/
 
 .gjoin-list2 {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     gap: 15px;justify-content: center;
 }
