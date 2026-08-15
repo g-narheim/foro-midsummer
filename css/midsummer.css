@@ -2039,8 +2039,8 @@ height: 100%;
 }
 
 .perfilt0 {
-    width: 310px;
-    height: 410px;
+    width: 310px !important;
+    height: 410px !important;
     background: #0e0e0e;
     position: relative;
     outline: var(--borde2);overflow:hidden;
