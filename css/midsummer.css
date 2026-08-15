@@ -1081,8 +1081,9 @@ color: var(--textobase) !important;
 
 .ps-ava2 img {
     position: relative;
-    outline: var(--borde2);width: 310px;
-    height: 410px;
+    outline: var(--borde2);
+    width: 310px !important;
+    height: 410px !important;
 }
 
 .ps-rango {
