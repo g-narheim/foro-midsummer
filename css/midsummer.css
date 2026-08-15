@@ -315,7 +315,7 @@ display: flex;
 }
 
 
-/*** NOTIFIKA ***/
+/*** NOTIFICACIONES ***/
 
 a#fa_notifications {
 position: fixed;
@@ -764,10 +764,7 @@ tr.member-gru0 td.posts {
 }
 
 
-
-/* =============================
-          MultiSwitch
-   ============================= */
+ /***  MULTISWITCH  ***/
  
 #szSw {
 font-family: var(--fuente1);
@@ -927,16 +924,13 @@ font-size: 9px;
   gap: 6px;
 }
  
-/* OCULTAR LA TOOLBAR */
+/*** OCULTAR LA TOOLBAR ***/
  
 #fa_toolbar {display: none;}
  
 #fa_toolbar, #fa_toolbar_hidden {display: none !important;}
  
-/* =============================
-         END Multiswitch
-   ============================= */
-
+/***  END MULTISWITCH ***/
 
 /**** PERFIL ****/
 
@@ -1094,7 +1088,6 @@ color: var(--textobase) !important;
     display: flex;
 }
 
-
 /**** SPOILER , CODE , QUOTE , HIDE ****/
 
 dl.codebox.hidecode {
@@ -1158,7 +1151,6 @@ blockquote {
 blockquote div {
     margin-left: 0px;
 }
-
 
 /**** AFILIADOS ****/
 
@@ -1467,7 +1459,7 @@ width: 1179px;
     margin: 10px;
 }
 
-/** LEYENDA AUTOMATICA **/
+/*** LEYENDA AUTOMATICA ***/
 
 a.grupoforo:after {
     content: ' ';
@@ -1513,22 +1505,22 @@ a.grupoforo span.miembros-grupo:before {
     line-height: 100%;
 }
 
-/* Administración — chess-rook */
+/* Administración */
 .gruposforo a.grupoforo:nth-child(1) span.miembros-grupo:before {
     content: "\e6a5";
 }
 
-/* Ambientación — scroll-text */
+/* Ambientación */
 .gruposforo a.grupoforo:nth-child(2) span.miembros-grupo:before {
     content: "\e2ed";
 }
 
-/* Pueblerinos — leaf */
+/* Pueblerinos */
 .gruposforo a.grupoforo:nth-child(3) span.miembros-grupo:before {
     content: "\e2de";
 }
 
-/* Foráneos — ghost */
+/* Foráneos */
 .gruposforo a.grupoforo:nth-child(4) span.miembros-grupo:before {
     content: "\e20e";
 }
@@ -1557,10 +1549,9 @@ a.grupoforo span.titulo-grupo:after {
     border-radius: 3px;
 }
 
-/** FIN LEYENDA AUTOMATICA **/
+/*** FIN LEYENDA AUTOMATICA ***/
 
-
-/**** TABLON ****/
+/*** TABLON ***/
 
 .t-anuncio:first-of-type .tanu-fecha {
     margin-left: 0px;
@@ -1865,9 +1856,7 @@ height: 260px;
     height: 90px;overflow:hidden;
 }
 
-
-/**** TEMAS ****/
-
+/*** TEMAS ***/
 
 .cajatextopost .h3 {display:none}
 
@@ -2096,8 +2085,7 @@ width: 340px;
     padding: 0px;
 }
 
-
-/**** LISTA DE TEMAS ****/
+/*** LISTA DE TEMAS ***/
 
 .action-box {
     margin-top: 30px;
@@ -2265,7 +2253,7 @@ ul.topiclist.topics.bg_none {
     padding: 10px;
 }
 
-/**** FOROS ****/
+/*** FOROS ***/
 
 .avatar-lastpost {
     width: 50px;
@@ -2453,8 +2441,7 @@ background: var(--fondo3);
     border-radius: 2px;content: '';
 }
 
-
-/**** HEADER ****/
+/*** HEADER ***/
 
 .titulo-foro {
      height: 100%;
@@ -2503,8 +2490,7 @@ background: var(--fondo3);
     align-items: flex-end;
 }
 
-
-/**** NAVBAR ****/
+/*** NAVBAR ***/
 
 .verperfil a {
 display: block;
@@ -2685,7 +2671,7 @@ content: '\e06f';
     display: none;
 }
 
-/**** BASICO ****/
+/*** BASICO ***/
 
 body {background: var(--imagen-fondo)!important;
     background-size: cover!important;
@@ -2927,8 +2913,7 @@ border:var(--borde1);
     font-size: 10px;
 }
 
-
-/*Tablilla Loca*/
+/*** TABLILLA IMAGENES ***/
 
 .tabla {
     margin: 0 auto;
@@ -3002,8 +2987,7 @@ border:var(--borde1);
     color: #272727;
 }
 
-
-/*Instagram*/
+/*** INSTAGRAM ***/
 
 .post-container {
    display: flex;
@@ -3026,7 +3010,7 @@ border:var(--borde1);
     margin-left: -25px;
 }
 
-/*Instagram Fix*/
+/*** INSTAGRAM FIX ***/
 
 .poINTM {
     margin-top: 20px;
@@ -3056,8 +3040,7 @@ border:var(--borde1);
   background-color: #aaa; 
 }
 
-
-/* Botón Subir / Bajar */
+/*** BOTÓN SUBIR - BAJAR ***/
 
 #topdown {
     position: fixed;
@@ -3068,18 +3051,14 @@ border:var(--borde1);
     display: flex;
     flex-direction: column;
     gap: 5px;
-
-    /* Oculto por defecto */
     opacity: 0;
     transform: translateY(15px);
     pointer-events: none;
-
     transition:
-        opacity .35s ease,
-        transform .35s ease;
+    opacity .35s ease,
+    transform .35s ease;
 }
 
-/* Aparece al bajar por la página */
 #topdown.visible {
     opacity: 1;
     transform: translateY(0);
@@ -3096,9 +3075,7 @@ border:var(--borde1);
     opacity: .75;
 }
 
-/* =========================
-   ME GUSTA - FUERA DEL POST
-   ========================= */
+/*** BOTÓN ME GUSTA ***/
 
 .fa_like_div {
     display: flex !important;
@@ -3111,7 +3088,6 @@ border:var(--borde1);
     line-height: 22px;
     clear: both;
 }
-
 
 /* Botón */
 
@@ -3137,14 +3113,10 @@ button.rep-button.fa_liked {
     font-size: 0 !important;
 }
 
-
-/* Ocultar SVG original */
-
 button.rep-button.fa_like svg,
 button.rep-button.fa_liked svg {
     display: none !important;
 }
-
 
 /* Corazón */
 
@@ -3170,14 +3142,12 @@ button.rep-button.fa_liked::before {
         text-shadow .3s ease;
 }
 
-
 /* Hover */
 
 button.rep-button.fa_like:hover::before,
 button.rep-button.fa_liked:hover::before {
     transform: scale(1.15);
 }
-
 
 /* Me gusta activado */
 
@@ -3186,7 +3156,7 @@ button.rep-button.fa_liked::before {
 }
 
 
-/* Lista de usuarios */
+/* Lista usuarios */
 
 .fa_like_list {
     display: inline-block !important;
@@ -3198,8 +3168,7 @@ button.rep-button.fa_liked::before {
     vertical-align: middle !important;
 }
 
-
-/* Nombre de cada usuario */
+/* Nombre usuario */
 
 .fa_like_list a {
     color: var(--grupo-color) !important;
@@ -3207,7 +3176,7 @@ button.rep-button.fa_liked::before {
     transition: color .3s ease;
 }
 
-/******* PRUEBA RÁPIDA *************/
+/***** TEMAS ALTERNATIVOS *****/
 
 body.tema-japon {
     --imagen-fondo: url(https://2img.net/i.imgur.com/4zQt4Ay.png);
@@ -3224,9 +3193,7 @@ body.tema-castillo {
 }
 
 
-/* ==========================================
-   ICONO DEL TEMA ALTERNATIVO
-   ========================================== */
+/* Icono Temas Alternativos */
 
 #boton-tema-alternativo {
     position: fixed;
@@ -3261,10 +3228,7 @@ body.tema-castillo {
         color .3s ease;
 }
 
-
-/* ==========================================
-   ICONO LUCIDE
-   ========================================== */
+/* Iconos Lucide */
 
 #boton-tema-alternativo svg {
     width: 24px;
@@ -3276,9 +3240,7 @@ body.tema-castillo {
 }
 
 
-/* ==========================================
-   HOVER
-   ========================================== */
+/* Hover */
 
 #boton-tema-alternativo:hover {
     color: var(--color2);
@@ -3286,7 +3248,8 @@ body.tema-castillo {
     transform: scale(1.12);
 }
 
-/**************** Tablilla Loca *****************/
+
+/*** TABLA LOCA ***/
 
 .tabla {
     margin: 0 auto;
@@ -3360,8 +3323,7 @@ body.tema-castillo {
     color: #272727;
 }
 
-
-/*** Tablillas  ***/
+/*** TABLILLAS MADEINSEVILLA ***/
 
 /*** POST DE ROL ***/
 .post-rol1 {
@@ -3907,81 +3869,6 @@ div#base1 .bb-cuadro {
     margin: 20px;
     outline: 1px solid var(--borde2-c);
     outline-offset: -7px;
-}
-
-
-/* Tablilla Loca */
-
-.tabla {
-    margin: 0 auto;
-    padding: 15px;
-    font-size: 14px;
-}
-
-.ta-pic {
-  position: relative;
-  width: 650px;
-  height: 250px;
-  margin-left: 20px;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  overflow: hidden;
-}
-
-.ta-text {
-    padding: 40px 40px 0;
-    font-size: 12px;
-    text-align: justify;
-    line-height: 16px;
-    color: var(--textobase);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
-}
-
-.ta-title {
-    font-family: "Roboto Condensed", serif;
-    font-size: 30px;
-    font-weight: 400;
-    margin-top: 15px;
-    color: var(--textobase);
-    font-weight: 800;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
-}
-
-.ta-subt {
-    font-family: "Roboto Condensed", serif;
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: var(--textobase);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
-}
-
-.tabla-2 .ta-title,
-.tabla-2 .ta-subt,
-.tabla-2 .ta-text {
-    color: #272727;
-}
-
-
-.tabla-3 .ta-pic {
-    outline: 1px solid #cfcfcf;
-    outline-offset: -20px;
-
-}
-
-.tabla-4 .ta-pic {
-    outline: 1px solid #272727;
-    outline-offset: -20px;
-}
-
-.tabla-4 .ta-title,
-.tabla-4 .ta-subt,
-.tabla-4 .ta-text {
-    color: #272727;
 }
 
 
