@@ -493,10 +493,10 @@ content: '\e059';
 
 
 a#fa_notifications.unread span#notif_unread {
-font-size: 14px;
+font-size: 15px;
     margin-left: 5px;
     color: var(--links1);
-    font-weight: 900;}
+    font-weight: 600;}
 
 .nv-notis {position: relative;}
 
