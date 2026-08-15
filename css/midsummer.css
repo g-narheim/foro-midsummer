@@ -3171,8 +3171,8 @@ button.rep-button.fa_liked::before {
 /* Nombre usuario */
 
 .fa_like_list a {
-    color: var(--grupo-color) !important;
     font-weight: 800;
+    color: var(--grupo-color) !important;
     transition: color .3s ease;
 }
 
