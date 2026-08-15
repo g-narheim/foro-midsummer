@@ -233,8 +233,8 @@ flex: 1;
 .rowt1-1-1 a {
 text-transform: lowercase;
     font-style: italic;
-    font-weight: 800;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 14px;
     color: var(--links1);
 }
 
