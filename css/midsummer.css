@@ -2085,8 +2085,9 @@ width: 340px;
 }
 
 .perfilt-avatar, .perfilt-avatar img {
-    width: 310px;
-    height: 410px;transition:0.4s;
+    width: 310px !important;
+    height: 410px !important;
+    transition:0.4s;
 }
 
 .perfilt:hover .perfilt-avatar img {opacity: 0.3;
