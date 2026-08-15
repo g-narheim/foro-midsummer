@@ -1721,7 +1721,8 @@ a.grupoforo span.titulo-grupo:after {
     padding: 20px;
 }
 
-.tablontra-imagen {padding: 1px;
+.tablontra-imagen {
+    padding: 1px;
     background: var(--color1);margin-right: 25px;}
 
 .tablontra-imagen img {
