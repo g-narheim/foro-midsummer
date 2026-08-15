@@ -15,7 +15,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("https://g-narheim.github.io/foro-midsummer/font-awesome/fa-solid-900.woff2");
+  src: url("https://g-narheim.github.io/foro-midsummer/font-awesome/fa-solid-900.woff2") format("woff2");
 }
 .fas {
   --fa-family: var(--fa-family-classic);
