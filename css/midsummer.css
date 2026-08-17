@@ -3028,11 +3028,11 @@ border:var(--borde1);
     color: #272727;
 }
 
-.ta-text img {
-    max-width: 500px;
-    max-height: 500px;
-    width: auto;
-    height: auto;
+.btexto img {
+    max-width: 500px !important;
+    max-height: 500px !important;
+    width: auto !important;
+    height: auto !important;
     object-fit: contain;
 }
 
