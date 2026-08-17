@@ -3028,6 +3028,14 @@ border:var(--borde1);
     color: #272727;
 }
 
+.ta-text img {
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
 /*** INSTAGRAM ***/
 
 .post-container {
