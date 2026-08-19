@@ -3321,3 +3321,10 @@ body.tema-faro {
     color: #FFF;
     font-size: .9em;
 }
+
+.pagination span a:hover {
+    border-color: var(--color1);
+    background-color: #;
+    color: #FFF;
+    text-decoration: none
+}
